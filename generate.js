@@ -3,7 +3,7 @@ const fs = require('fs');
 
 async function generateImage(prompt) {
   try {
-    const url = 'http://127.0.0.1:7860/sdapi/v1/txt2img';
+    const url = 'https://95e4a1ea4047f37961.gradio.live/sdapi/v1/txt2img';
     const payload = {
       prompt: prompt,
       width: 512,
