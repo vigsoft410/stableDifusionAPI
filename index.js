@@ -1,6 +1,7 @@
 const express = require('express');
 const { generateImage } = require('./generate');
 const app = express();
+pp.use(cors());
 app.use(express.json());
 
 app.post('/generate-image', async (req, res) => {
